@@ -1,0 +1,52 @@
+createGroup:
+  path: '/v3/notesvr/set/notegroup'
+  mustKeys:
+    - groupId
+    - groupName
+  notMustKeys:
+    - order
+  bodyBase: {
+    "groupId": '123',
+    "groupName": "groupName1",
+    "order": 0
+  }
+  exceptBase: {}
+
+deleteGroup:
+  path: '/v3/notesvr/set/notegroup'
+  mustKeys:
+    - - { "key": "groupId", "code": 500 }
+    - - { "key": "groupName", "code": 200 }
+  notMustKeys:
+    - remove
+  bodyBase: { }
+  exceptBase: { }
+
+deleteNote:
+  path: '/v3/notesvr/delete'
+  mustKeys:
+    - noteId
+  notMustKeys:
+  bodyBase: { }
+  exceptBase: { }
+
+createNoteInfo:
+  path: '/v3/notesvr/set/noteinfo'
+  mustKeys:
+    - noteId
+  notMustKeys:
+  bodyBase: { }
+  exceptBase: { }
+
+createNoteContent:
+  path: '/v3/notesvr/set/notecontent'
+  mustKeys:
+    - noteId
+    - title
+    - summary
+    - body
+    - localContentVersion
+    - bodyType
+  notMustKeys:
+  bodyBase: { }
+  exceptBase: { }

@@ -1,0 +1,24 @@
+[STEP]09:51:56:972-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:TestGetHomepageNotes
+[STEP]09:51:56:972-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]09:51:56:982-test_homepage_notelist.py:21 >> 【step】前置构建首页便签数据
+[STEP]09:51:59:014-test_homepage_notelist.py:26 >> 【step】获取首页便签
+[INFO]09:51:59:014-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]09:51:59:030-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]09:52:00:061-httpReMethod.py:52 >> recv code: 200
+[INFO]09:52:00:061-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730339516982_noteid","createTime":1730339517349,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730339517349,"groupId":null,"title":"1730339517_title","summary":"1730339517_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730339518294}]}
+[STEP]09:52:20:130-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:TestGetHomepageNotes
+[STEP]09:52:20:130-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]09:52:20:130-test_homepage_notelist.py:21 >> 【step】前置构建首页便签数据
+[STEP]09:52:23:021-test_homepage_notelist.py:26 >> 【step】获取首页便签
+[INFO]09:52:23:021-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]09:52:23:021-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]09:52:24:069-httpReMethod.py:52 >> recv code: 200
+[INFO]09:52:24:069-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730339540130_noteid","createTime":1730339541324,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730339541324,"groupId":null,"title":"1730339541_title","summary":"1730339541_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730339542427}]}
+[STEP]09:52:30:227-caseLogs.py:54 >> Method Name:testCase02_check_calendarnotes, Class Name:TestGetHomepageNotes
+[STEP]09:52:30:227-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]09:52:30:227-test_homepage_notelist.py:52 >> 【step】前置构建日历便签数据
+[STEP]09:52:32:900-test_homepage_notelist.py:57 >> 【step】获取首页便签列表
+[INFO]09:52:32:900-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]09:52:32:915-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]09:52:34:134-httpReMethod.py:52 >> recv code: 200
+[INFO]09:52:34:134-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[]}
