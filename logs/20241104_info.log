@@ -1,0 +1,190 @@
+[STEP]17:58:33:071-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]17:58:33:078-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]17:58:33:078-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]17:58:33:526-test_major.py:25 >> 【step】获取首页便签
+[INFO]17:58:33:534-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]17:58:33:534-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[STEP]17:58:56:013-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]17:58:56:013-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]17:58:56:013-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]17:59:02:985-test_major.py:25 >> 【step】获取首页便签
+[INFO]17:59:02:985-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]17:59:02:985-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]17:59:05:741-httpReMethod.py:52 >> recv code: 200
+[INFO]17:59:05:758-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730714336013_noteid","createTime":1730714339966,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730714339966,"groupId":null,"title":"1730714341_title","summary":"1730714341_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730714345560}]}
+[STEP]18:00:12:853-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]18:00:12:868-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]18:00:12:868-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]18:00:14:588-test_major.py:25 >> 【step】获取首页便签
+[INFO]18:00:14:588-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]18:00:14:604-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]18:00:20:008-httpReMethod.py:52 >> recv code: 200
+[INFO]18:00:20:009-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730714412868_noteid","createTime":1730714415791,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730714415791,"groupId":null,"title":"1730714413_title","summary":"1730714413_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730714417214}]}
+[STEP]18:30:16:512-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]18:30:16:515-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]18:30:16:519-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]18:30:22:570-test_major.py:27 >> 【step】获取首页便签
+[INFO]18:30:22:574-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]18:30:22:578-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]18:30:26:477-httpReMethod.py:52 >> recv code: 200
+[INFO]18:30:26:481-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730716216519_noteid","createTime":1730716219524,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730716219524,"groupId":null,"title":"1730716220_title","summary":"1730716220_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730716224166}]}
+[STEP]18:32:33:828-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]18:32:33:831-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]18:32:33:834-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]18:32:34:706-test_major.py:27 >> 【step】获取首页便签
+[INFO]18:32:34:709-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]18:32:34:713-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]18:32:40:453-httpReMethod.py:52 >> recv code: 200
+[INFO]18:32:40:457-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730716353835_noteid","createTime":1730716356791,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730716356791,"groupId":null,"title":"1730716354_title","summary":"1730716354_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730716357339}]}
+[STEP]18:34:09:154-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]18:34:09:157-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]18:34:09:161-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]18:34:10:818-test_major.py:27 >> 【step】获取首页便签
+[INFO]18:34:10:821-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]18:34:10:825-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]18:34:13:237-httpReMethod.py:52 >> recv code: 200
+[INFO]18:34:13:241-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730716449161_noteid","createTime":1730716452567,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730716452567,"groupId":null,"title":"1730716450_title","summary":"1730716450_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730716453327}]}
+[STEP]18:55:51:224-caseLogs.py:54 >> Method Name:testCase01_check_calendarNotes, Class Name:GetHomeNotesHandle
+[STEP]18:55:51:224-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]18:55:51:224-test_handle.py:27 >> 【step】前置构建日历便签数据
+[STEP]18:55:51:654-test_handle.py:32 >> 【step】获取首页便签列表
+[INFO]18:55:51:655-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]18:55:51:655-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]18:55:51:844-httpReMethod.py:52 >> recv code: 200
+[INFO]18:55:51:844-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]18:56:54:792-caseLogs.py:54 >> Method Name:testCase01_check_calendarNotes, Class Name:GetHomeNotesHandle
+[STEP]18:56:54:795-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]18:56:54:798-test_handle.py:27 >> 【step】前置构建日历便签数据
+[STEP]18:56:55:266-test_handle.py:32 >> 【step】获取首页便签列表
+[INFO]18:56:55:266-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]18:56:55:266-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]18:56:55:502-httpReMethod.py:52 >> recv code: 200
+[INFO]18:56:55:502-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]19:03:45:130-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:DelNotesMajor
+[STEP]19:03:45:145-caseLogs.py:55 >> Test Description:删除便签 主流程
+[STEP]19:03:45:145-test_major.py:30 >> 【step】前置构建便签数据
+[STEP]19:03:45:526-test_major.py:32 >> 【step】删除便签
+[INFO]19:03:45:526-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]19:03:45:537-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]19:03:45:537-httpReMethod.py:18 >> send body: {'noteId': '1730718225145_noteid'}
+[INFO]19:03:45:715-httpReMethod.py:27 >> recv code: 200
+[INFO]19:03:45:715-httpReMethod.py:28 >> recv body: {"responseTime":32}
+[INFO]19:03:45:726-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:03:45:726-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]19:03:45:929-httpReMethod.py:52 >> recv code: 200
+[INFO]19:03:45:929-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]19:06:47:521-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:06:47:536-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:06:47:536-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:06:47:921-test_major.py:27 >> 【step】获取首页便签
+[INFO]19:06:47:928-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:06:47:928-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[STEP]19:07:13:384-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:07:13:384-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:07:13:384-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:07:13:802-test_major.py:27 >> 【step】获取首页便签
+[INFO]19:07:13:806-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:07:13:806-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[STEP]19:07:49:641-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:07:49:655-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:07:49:655-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:07:50:021-test_major.py:27 >> 【step】获取首页便签
+[INFO]19:07:50:021-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:07:50:021-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[STEP]19:07:59:426-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:07:59:426-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:07:59:442-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:07:59:811-test_major.py:27 >> 【step】获取首页便签
+[INFO]19:07:59:811-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:07:59:820-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[STEP]19:08:05:352-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:08:05:352-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:08:05:352-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:08:05:761-test_major.py:27 >> 【step】获取首页便签
+[INFO]19:08:05:761-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:08:05:761-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[STEP]19:08:21:046-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:08:21:046-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:08:21:046-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:08:30:721-test_major.py:27 >> 【step】获取首页便签
+[INFO]19:08:30:721-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:08:30:721-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]19:08:33:799-httpReMethod.py:52 >> recv code: 200
+[INFO]19:08:33:799-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730718501046_noteid","createTime":1730718502384,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730718502384,"groupId":null,"title":"1730718506_title","summary":"1730718506_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730718510163}]}
+[STEP]19:08:47:998-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:08:47:998-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:08:48:014-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:08:49:108-test_major.py:27 >> 【step】获取首页便签
+[INFO]19:08:49:123-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:08:49:123-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]19:08:56:301-httpReMethod.py:52 >> recv code: 200
+[INFO]19:08:56:301-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730718528014_noteid","createTime":1730718528377,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730718528377,"groupId":null,"title":"1730718528_title","summary":"1730718528_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730718528774}]}
+[STEP]19:09:13:000-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:09:13:015-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:09:13:015-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:09:13:766-test_major.py:27 >> 【step】获取首页便签
+[INFO]19:09:13:766-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:09:13:766-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[STEP]19:09:37:494-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:09:37:494-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:09:37:510-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:09:41:559-test_major.py:27 >> 【step】获取首页便签
+[INFO]19:09:41:559-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:09:41:559-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]19:09:50:734-httpReMethod.py:52 >> recv code: 200
+[INFO]19:09:50:750-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730718577510_noteid","createTime":1730718577818,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730718577818,"groupId":null,"title":"1730718577_title","summary":"1730718577_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730718581137}]}
+[STEP]19:28:16:993-caseLogs.py:54 >> Method Name:testCase09_check_ultra_vires, Class Name:DelNotesHandle
+[STEP]19:28:16:993-caseLogs.py:55 >> Test Description:删除其他用户便签，校验越权
+[STEP]19:28:16:993-test_handle.py:115 >> 【step】前置构建便签数据1条
+[STEP]19:28:17:354-test_handle.py:117 >> 【step】删除便签
+[INFO]19:28:17:354-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]19:28:17:354-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]19:28:17:354-httpReMethod.py:18 >> send body: {'noteId': '1730719696993_noteid'}
+[INFO]19:28:17:573-httpReMethod.py:27 >> recv code: 200
+[INFO]19:28:17:573-httpReMethod.py:28 >> recv body: {"responseTime":27}
+[STEP]19:28:17:573-test_handle.py:120 >> 【step】校验越权
+[STEP]19:28:37:591-caseLogs.py:54 >> Method Name:testCase09_check_ultra_vires, Class Name:DelNotesHandle
+[STEP]19:28:37:591-caseLogs.py:55 >> Test Description:删除其他用户便签，校验越权
+[STEP]19:28:37:591-test_handle.py:115 >> 【step】前置构建便签数据1条
+[STEP]19:28:37:969-test_handle.py:117 >> 【step】删除便签
+[INFO]19:28:37:969-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]19:28:37:969-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]19:28:37:969-httpReMethod.py:18 >> send body: {'noteId': '1730719717591_noteid'}
+[INFO]19:28:38:192-httpReMethod.py:27 >> recv code: 200
+[INFO]19:28:38:192-httpReMethod.py:28 >> recv body: {"responseTime":29}
+[STEP]19:28:38:192-test_handle.py:120 >> 【step】校验越权
+[INFO]19:28:38:203-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/625015821/home/startindex/0/rows/50/notes
+[INFO]19:28:38:203-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SdRugcaKUR2P6Uqg89QTEYbvMWNw00aa83cf5002540fc0d', 'X-user-key': '625015821'}
+[INFO]19:28:38:391-httpReMethod.py:52 >> recv code: 200
+[INFO]19:28:38:391-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730719717591_noteid","createTime":1730719717784,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730719717784,"groupId":null,"title":"1730719717_title","summary":"1730719717_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730719717973}]}
+[STEP]19:30:16:764-caseLogs.py:54 >> Method Name:testCase09_check_ultra_vires, Class Name:DelNotesHandle
+[STEP]19:30:16:764-caseLogs.py:55 >> Test Description:删除其他用户便签，校验越权
+[STEP]19:30:16:764-test_handle.py:115 >> 【step】前置构建便签数据1条
+[STEP]19:30:17:141-test_handle.py:117 >> 【step】删除便签
+[INFO]19:30:17:141-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]19:30:17:141-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]19:30:17:141-httpReMethod.py:18 >> send body: {'noteId': '1730719816764_noteid'}
+[INFO]19:30:17:373-httpReMethod.py:27 >> recv code: 200
+[INFO]19:30:17:376-httpReMethod.py:28 >> recv body: {"responseTime":73}
+[STEP]19:30:17:376-test_handle.py:120 >> 【step】校验越权
+[INFO]19:30:17:376-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/625015821/home/startindex/0/rows/50/notes
+[INFO]19:30:17:376-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SdRugcaKUR2P6Uqg89QTEYbvMWNw00aa83cf5002540fc0d', 'X-user-key': '625015821'}
+[INFO]19:30:17:582-httpReMethod.py:52 >> recv code: 200
+[INFO]19:30:17:582-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730719816764_noteid","createTime":1730719816974,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730719816974,"groupId":null,"title":"1730719816_title","summary":"1730719816_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730719817156}]}
+[STEP]19:35:45:594-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:35:45:609-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:35:45:609-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:36:05:791-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:36:05:791-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:36:05:791-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:36:06:184-test_major.py:28 >> 【step】获取首页便签
+[INFO]19:36:06:184-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:36:06:184-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[STEP]19:39:45:072-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]19:39:45:072-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]19:39:45:072-test_major.py:20 >> 【step】前置构建首页便签数据
+[STEP]19:39:47:296-test_major.py:28 >> 【step】获取首页便签
+[INFO]19:39:47:296-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]19:39:47:296-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]19:39:52:839-httpReMethod.py:52 >> recv code: 200
+[INFO]19:39:52:839-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730720385072_noteid","createTime":1730720386481,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730720386481,"groupId":null,"title":"1730720386_title","summary":"1730720386_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730720387276}]}

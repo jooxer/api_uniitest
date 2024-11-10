@@ -1,0 +1,568 @@
+[STEP]10:16:48:886-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:DelNotesMajor
+[STEP]10:16:48:890-caseLogs.py:55 >> Test Description:删除便签 主流程
+[STEP]10:16:48:893-test_major.py:32 >> 【step】前置构建便签数据
+[STEP]10:16:49:282-test_major.py:34 >> 【step】获取便签
+[INFO]10:16:49:286-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]10:16:49:290-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]10:16:49:490-httpReMethod.py:52 >> recv code: 200
+[INFO]10:16:49:494-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730513808894_noteid","createTime":1730513809285,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730513809285,"groupId":null,"title":"1730513809_title","summary":"1730513809_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730513809554}]}
+[STEP]10:16:49:498-test_major.py:36 >> 【step】删除便签
+[INFO]10:16:49:502-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]10:16:49:506-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=None', 'X-user-key': 'None'}
+[INFO]10:16:49:510-httpReMethod.py:18 >> send body: {'noteId': ['1730513808894_noteid']}
+[INFO]10:16:49:684-httpReMethod.py:27 >> recv code: 500
+[INFO]10:16:49:688-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":""}
+[STEP]10:17:36:745-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:DelNotesMajor
+[STEP]10:17:36:749-caseLogs.py:55 >> Test Description:删除便签 主流程
+[STEP]10:17:36:753-test_major.py:32 >> 【step】前置构建便签数据
+[STEP]10:17:37:159-test_major.py:34 >> 【step】获取便签
+[INFO]10:17:37:164-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]10:17:37:167-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]10:17:37:395-httpReMethod.py:52 >> recv code: 200
+[INFO]10:17:37:398-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730513856753_noteid","createTime":1730513857211,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730513857211,"groupId":null,"title":"1730513856_title","summary":"1730513856_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730513857397}]}
+[STEP]10:17:37:402-test_major.py:36 >> 【step】删除便签
+[INFO]10:17:37:405-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]10:17:37:409-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=None', 'X-user-key': 'None'}
+[INFO]10:17:37:413-httpReMethod.py:18 >> send body: {'noteId': '1730513856753_noteid'}
+[INFO]10:17:37:589-httpReMethod.py:27 >> recv code: 500
+[INFO]10:17:37:593-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":"参数类型错误！"}
+[STEP]10:18:53:468-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:DelNotesMajor
+[STEP]10:18:53:471-caseLogs.py:55 >> Test Description:删除便签 主流程
+[STEP]10:18:53:475-test_major.py:32 >> 【step】前置构建便签数据
+[STEP]10:18:53:888-test_major.py:34 >> 【step】获取便签
+[INFO]10:18:53:892-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]10:18:53:895-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]10:18:54:104-httpReMethod.py:52 >> recv code: 200
+[INFO]10:18:54:108-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730513933475_noteid","createTime":1730513933884,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730513933884,"groupId":null,"title":"1730513933_title","summary":"1730513933_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730513934113}]}
+[STEP]10:18:54:111-test_major.py:36 >> 【step】删除便签
+[INFO]10:18:54:115-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]10:18:54:119-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]10:18:54:122-httpReMethod.py:18 >> send body: {'noteId': '1730513933475_noteid'}
+[INFO]10:18:54:348-httpReMethod.py:27 >> recv code: 200
+[INFO]10:18:54:352-httpReMethod.py:28 >> recv body: {"responseTime":40}
+[STEP]10:20:23:476-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:DelNotesMajor
+[STEP]10:20:23:479-caseLogs.py:55 >> Test Description:删除便签 主流程
+[STEP]10:20:23:483-test_major.py:31 >> 【step】前置构建便签数据
+[STEP]10:20:24:004-test_major.py:33 >> 【step】删除便签
+[INFO]10:20:24:008-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]10:20:24:011-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]10:20:24:015-httpReMethod.py:18 >> send body: {'noteId': '1730514023483_noteid'}
+[INFO]10:20:24:231-httpReMethod.py:27 >> recv code: 200
+[INFO]10:20:24:234-httpReMethod.py:28 >> recv body: {"responseTime":43}
+[STEP]10:24:05:380-caseLogs.py:54 >> Method Name:testCase01_must_key_noteId_lost, Class Name:DelNotesMajor
+[STEP]10:24:05:383-caseLogs.py:55 >> Test Description:删除便签 必填项noteId缺失
+[STEP]10:24:05:387-test_input.py:31 >> 【step】前置构建便签数据
+[STEP]10:24:05:782-test_input.py:33 >> 【step】删除noteId缺失的便签
+[INFO]10:24:05:785-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]10:24:05:789-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]10:24:05:793-httpReMethod.py:18 >> send body: {}
+[INFO]10:24:05:959-httpReMethod.py:27 >> recv code: 500
+[INFO]10:24:05:962-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]10:24:29:715-caseLogs.py:54 >> Method Name:testCase01_must_key_noteId_lost, Class Name:DelNotesMajor
+[STEP]10:24:29:718-caseLogs.py:55 >> Test Description:删除便签 必填项noteId缺失
+[STEP]10:24:29:722-test_input.py:31 >> 【step】前置构建便签数据
+[STEP]10:24:30:182-test_input.py:33 >> 【step】删除noteId缺失的便签
+[INFO]10:24:30:186-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]10:24:30:189-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]10:24:30:193-httpReMethod.py:18 >> send body: {}
+[INFO]10:24:30:383-httpReMethod.py:27 >> recv code: 500
+[INFO]10:24:30:386-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]10:27:00:592-caseLogs.py:54 >> Method Name:testCase01_must_key_noteId_None, Class Name:DelNotesMajor
+[STEP]10:27:00:596-caseLogs.py:55 >> Test Description:删除便签 必填项noteId为空
+[STEP]10:27:00:599-test_input.py:41 >> 【step】前置构建便签数据
+[STEP]10:27:01:019-test_input.py:43 >> 【step】删除noteId为空的便签
+[INFO]10:27:01:022-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]10:27:01:026-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]10:27:01:030-httpReMethod.py:18 >> send body: {'noteId': None}
+[INFO]10:27:01:197-httpReMethod.py:27 >> recv code: 500
+[INFO]10:27:01:200-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]11:10:25:158-caseLogs.py:54 >> Method Name:testCase04_must_key_noteId_None, Class Name:DelNotesMajor
+[STEP]11:10:25:158-caseLogs.py:55 >> Test Description:删除便签 必填项noteId值过长
+[STEP]11:10:25:158-test_input.py:61 >> 【step】前置构建便签数据
+[STEP]11:10:25:546-test_input.py:63 >> 【step】删除noteId为空的便签
+[INFO]11:10:25:550-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:10:25:550-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:10:25:550-httpReMethod.py:18 >> send body: {'noteId': '99999999999999999999999999999999999999999999999999'}
+[INFO]11:10:25:723-httpReMethod.py:27 >> recv code: 500
+[INFO]11:10:25:723-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]11:12:24:665-caseLogs.py:54 >> Method Name:testCase05_must_key_noteId_special, Class Name:DelNotesMajor
+[STEP]11:12:24:665-caseLogs.py:55 >> Test Description:删除便签 必填项noteId为特殊字符
+[STEP]11:12:24:679-test_input.py:67 >> 【step】前置构建便签数据
+[STEP]11:12:25:062-test_input.py:69 >> 【step】删除noteId为空的便签
+[INFO]11:12:25:062-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:12:25:062-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:12:25:080-httpReMethod.py:18 >> send body: {'noteId': '？@#￥%……'}
+[INFO]11:12:25:305-httpReMethod.py:27 >> recv code: 500
+[INFO]11:12:25:308-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":"org.springframework.jdbc.UncategorizedSQLException: \n### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\\xEF\\xBC\\x9F@#\\xEF...' for column 'noteId' at row 1\n### The error may involve defaultParameterMap\n### The error occurred while setting parameters\n### SQL: insert into noteinfo(userId, noteId, valid, infoVersion, createTime, infoUpdateTime)             values(?, ?, ?, 1, ?, ?)             on duplicate key update             valid = ?, infoVersion = infoVersion + 1, infoUpdateTime = ?\n### Cause: java.sql.SQLException: Incorrect string value: '\\xEF\\xBC\\x9F@#\\xEF...' for column 'noteId' at row 1\n; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\\xEF\\xBC\\x9F@#\\xEF...' for column 'noteId' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\\xEF\\xBC\\x9F@#\\xEF...' for column 'noteId' at row 1\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)\n\tat org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)\n\tat org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)\n\tat com.sun.proxy.$Proxy96.insert(Unknown Source)\n\tat org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)\n\tat org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)\n\tat org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)\n\tat com.sun.proxy.$Proxy100.setValid(Unknown Source)\n\tat cn.wps.note.api.NoteApi.deleteNote(NoteApi.java:303)\n\tat cn.wps.note.service.old.NoteControllerService.deleteNote(NoteControllerService.java:195)\n\tat cn.wps.note.controller.old.NoteController.deleteNote(NoteController.java:393)\n\tat cn.wps.note.controller.old.NoteController$$FastClassBySpringCGLIB$$19b69b22.invoke(<generated>)\n\tat org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)\n\tat org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)\n\tat org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)\n\tat cn.wps.note.interceptor.LogAop.around(LogAop.java:30)\n\tat sun.reflect.GeneratedMethodAccessor79.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)\n\tat org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)\n\tat org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)\n\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)\n\tat org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)\n\tat cn.wps.note.controller.old.NoteController$$EnhancerBySpringCGLIB$$6e47ae67.deleteNote(<generated>)\n\tat sun.reflect.GeneratedMethodAccessor178.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:660)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:741)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: java.sql.SQLException: Incorrect string value: '\\xEF\\xBC\\x9F@#\\xEF...' for column 'noteId' at row 1\n\tat com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)\n\tat com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3970)\n\tat com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3906)\n\tat com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)\n\tat com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2677)\n\tat com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)\n\tat com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)\n\tat com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)\n\tat com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3409)\n\tat com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)\n\tat com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3407)\n\tat com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)\n\tat com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:498)\n\tat org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)\n\tat org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)\n\tat org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)\n\tat org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)\n\tat org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)\n\tat sun.reflect.GeneratedMethodAccessor124.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)\n\tat com.sun.proxy.$Proxy136.update(Unknown Source)\n\tat org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)\n\tat org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)\n\tat sun.reflect.GeneratedMethodAccessor135.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)\n\t... 81 more\n"}
+[STEP]11:16:37:951-caseLogs.py:54 >> Method Name:testCase06_must_key_noteId_upper_lower, Class Name:DelNotesMajor
+[STEP]11:16:37:951-caseLogs.py:55 >> Test Description:删除便签 必填项noteId为大小写
+[STEP]11:16:37:951-test_input.py:76 >> 【step】前置构建便签数据
+[STEP]11:16:37:966-test_input.py:77 >> 【step】删除noteId为空的便签
+[INFO]11:16:37:966-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:16:37:966-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:16:37:966-httpReMethod.py:18 >> send body: {'noteId': 'AAAAAaaaa'}
+[INFO]11:16:38:173-httpReMethod.py:27 >> recv code: 200
+[INFO]11:16:38:173-httpReMethod.py:28 >> recv body: {"responseTime":29}
+[STEP]11:17:43:200-caseLogs.py:54 >> Method Name:testCase06_must_key_noteId_upper_lower, Class Name:DelNotesMajor
+[STEP]11:17:43:203-caseLogs.py:55 >> Test Description:删除便签 必填项noteId为大小写
+[STEP]11:17:43:207-test_input.py:76 >> 【step】前置构建便签数据
+[STEP]11:17:43:594-test_input.py:78 >> 【step】删除noteId为空的便签
+[INFO]11:17:43:598-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:17:43:601-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:17:43:605-httpReMethod.py:18 >> send body: {'noteId': 'AAAAAaaaa'}
+[INFO]11:17:43:804-httpReMethod.py:27 >> recv code: 200
+[INFO]11:17:43:807-httpReMethod.py:28 >> recv body: {"responseTime":37}
+[STEP]11:26:29:630-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:DelNotesMajor
+[STEP]11:26:29:633-caseLogs.py:55 >> Test Description:删除便签 删除首页便签
+[STEP]11:26:29:637-test_handle.py:30 >> 【step】前置构建首页便签数据
+[STEP]11:26:30:033-test_handle.py:32 >> 【step】删除便签
+[INFO]11:26:30:036-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:26:30:040-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:26:30:043-httpReMethod.py:18 >> send body: {'noteId': '1730517989637_noteid'}
+[INFO]11:26:30:248-httpReMethod.py:27 >> recv code: 200
+[INFO]11:26:30:252-httpReMethod.py:28 >> recv body: {"responseTime":29}
+[STEP]11:26:30:255-test_handle.py:35 >> 【step】校验便签删除情况
+[INFO]11:26:30:258-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:26:30:262-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:26:30:563-httpReMethod.py:52 >> recv code: 200
+[INFO]11:26:30:567-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730517989637_noteid","createTime":1730517990119,"star":0,"remindTime":0,"remindType":0,"infoVersion":2,"infoUpdateTime":1730517990568,"groupId":null,"title":"1730517989_title","summary":"1730517989_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730517990371}]}
+[STEP]11:26:56:201-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:DelNotesMajor
+[STEP]11:26:56:205-caseLogs.py:55 >> Test Description:删除便签 删除首页便签
+[STEP]11:26:56:208-test_handle.py:30 >> 【step】前置构建首页便签数据
+[STEP]11:26:56:610-test_handle.py:32 >> 【step】删除便签
+[INFO]11:26:56:613-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:26:56:617-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:26:56:620-httpReMethod.py:18 >> send body: {'noteId': '1730518016209_noteid'}
+[INFO]11:26:56:813-httpReMethod.py:27 >> recv code: 200
+[INFO]11:26:56:816-httpReMethod.py:28 >> recv body: {"responseTime":28}
+[STEP]11:26:56:820-test_handle.py:35 >> 【step】校验便签删除情况
+[INFO]11:26:56:823-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:26:56:827-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:26:57:034-httpReMethod.py:52 >> recv code: 200
+[INFO]11:26:57:038-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730518016209_noteid","createTime":1730518016741,"star":0,"remindTime":0,"remindType":0,"infoVersion":2,"infoUpdateTime":1730518017135,"groupId":null,"title":"1730518016_title","summary":"1730518016_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730518016927}]}
+[STEP]11:29:32:223-caseLogs.py:54 >> Method Name:testCase02_del_calendarNotes, Class Name:DelNotesHandle
+[STEP]11:29:32:226-caseLogs.py:55 >> Test Description:删除便签 删除日历便签
+[STEP]11:29:32:230-test_handle.py:48 >> 【step】前置构建日历便签数据
+[STEP]11:29:32:605-test_handle.py:51 >> 【step】删除便签
+[INFO]11:29:32:608-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:29:32:612-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:29:32:616-httpReMethod.py:18 >> send body: {'noteId': '1730518172230_noteid'}
+[INFO]11:29:32:830-httpReMethod.py:27 >> recv code: 200
+[INFO]11:29:32:833-httpReMethod.py:28 >> recv body: {"responseTime":53}
+[STEP]11:29:32:837-test_handle.py:54 >> 【step】校验便签删除情况
+[INFO]11:29:32:840-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:29:32:844-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:29:33:041-httpReMethod.py:52 >> recv code: 200
+[INFO]11:29:33:044-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730518172230_noteid","createTime":1730518172760,"star":0,"remindTime":1730516400000,"remindType":0,"infoVersion":2,"infoUpdateTime":1730518173150,"groupId":null,"title":"1730518172_title","summary":"1730518172_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730518172929}]}
+[STEP]11:30:48:852-caseLogs.py:54 >> Method Name:testCase03_del_groupNotes, Class Name:DelNotesHandle
+[STEP]11:30:48:855-caseLogs.py:55 >> Test Description:删除便签 删除分组便签
+[STEP]11:30:48:859-test_handle.py:66 >> 【step】前置构建分组便签数据
+[STEP]11:31:16:710-caseLogs.py:54 >> Method Name:testCase03_del_groupNotes, Class Name:DelNotesHandle
+[STEP]11:31:16:713-caseLogs.py:55 >> Test Description:删除便签 删除分组便签
+[STEP]11:31:16:717-test_handle.py:66 >> 【step】前置构建分组便签数据
+[STEP]11:31:17:306-test_handle.py:69 >> 【step】删除便签
+[INFO]11:31:17:310-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:31:17:313-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:31:17:317-httpReMethod.py:18 >> send body: {'noteId': '1730518276902_noteid'}
+[INFO]11:31:17:537-httpReMethod.py:27 >> recv code: 200
+[INFO]11:31:17:541-httpReMethod.py:28 >> recv body: {"responseTime":50}
+[STEP]11:31:17:544-test_handle.py:72 >> 【step】校验便签删除情况
+[INFO]11:31:17:548-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:31:17:552-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:31:17:738-httpReMethod.py:52 >> recv code: 200
+[INFO]11:31:17:742-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730518276902_noteid","createTime":1730518277442,"star":0,"remindTime":0,"remindType":0,"infoVersion":2,"infoUpdateTime":1730518277809,"groupId":"1730518276717_group_id","title":"1730518277_title","summary":"1730518277_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730518277633}]}
+[STEP]11:34:10:863-caseLogs.py:54 >> Method Name:testCase04_del_recycleNotes, Class Name:DelNotesHandle
+[STEP]11:34:10:866-caseLogs.py:55 >> Test Description:删除便签 删除回收站便签
+[STEP]11:34:10:870-test_handle.py:84 >> 【step】前置构建回收站便签数据
+[STEP]11:34:11:464-test_handle.py:87 >> 【step】删除便签
+[INFO]11:34:11:467-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:34:11:471-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:34:11:475-httpReMethod.py:18 >> send body: {'noteId': '1'}
+[INFO]11:34:11:682-httpReMethod.py:27 >> recv code: 200
+[INFO]11:34:11:685-httpReMethod.py:28 >> recv body: {"responseTime":26}
+[STEP]11:34:11:689-test_handle.py:90 >> 【step】校验便签删除情况
+[INFO]11:34:11:692-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:34:11:696-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:34:11:887-httpReMethod.py:52 >> recv code: 200
+[INFO]11:34:11:890-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730518450870_noteid","createTime":1730518451416,"star":0,"remindTime":0,"remindType":0,"infoVersion":2,"infoUpdateTime":1730518451769,"groupId":null,"title":"1730518451_title","summary":"1730518451_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730518451639}]}
+[STEP]11:34:28:090-caseLogs.py:54 >> Method Name:testCase04_del_recycleNotes, Class Name:DelNotesHandle
+[STEP]11:34:28:093-caseLogs.py:55 >> Test Description:删除便签 删除回收站便签
+[STEP]11:34:28:097-test_handle.py:84 >> 【step】前置构建回收站便签数据
+[STEP]11:34:28:671-test_handle.py:87 >> 【step】删除便签
+[INFO]11:34:28:675-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:34:28:679-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:34:28:683-httpReMethod.py:18 >> send body: {'noteId': '1'}
+[INFO]11:34:28:871-httpReMethod.py:27 >> recv code: 200
+[INFO]11:34:28:875-httpReMethod.py:28 >> recv body: {"responseTime":26}
+[STEP]11:34:28:879-test_handle.py:90 >> 【step】校验便签删除情况
+[INFO]11:34:28:882-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:34:28:886-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:34:29:092-httpReMethod.py:52 >> recv code: 200
+[INFO]11:34:29:095-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730518468097_noteid","createTime":1730518468636,"star":0,"remindTime":0,"remindType":0,"infoVersion":2,"infoUpdateTime":1730518469022,"groupId":null,"title":"1730518468_title","summary":"1730518468_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730518468826}]}
+[STEP]11:35:49:125-caseLogs.py:54 >> Method Name:testCase04_del_recycleNotes, Class Name:DelNotesHandle
+[STEP]11:35:49:129-caseLogs.py:55 >> Test Description:删除便签 删除回收站便签
+[STEP]11:35:49:132-test_handle.py:84 >> 【step】前置构建回收站便签数据
+[STEP]11:35:49:920-test_handle.py:87 >> 【step】删除便签
+[INFO]11:35:49:924-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:35:49:927-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:35:49:931-httpReMethod.py:18 >> send body: {'noteId': '1730518549133_noteid'}
+[INFO]11:35:50:118-httpReMethod.py:27 >> recv code: 200
+[INFO]11:35:50:122-httpReMethod.py:28 >> recv body: {"responseTime":29}
+[STEP]11:35:50:125-test_handle.py:90 >> 【step】校验便签删除情况
+[INFO]11:35:50:129-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:35:50:132-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:35:50:331-httpReMethod.py:52 >> recv code: 200
+[INFO]11:35:50:335-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730518549133_noteid","createTime":1730518549636,"star":0,"remindTime":0,"remindType":0,"infoVersion":3,"infoUpdateTime":1730518550476,"groupId":null,"title":"1730518549_title","summary":"1730518549_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730518550080}]}
+[STEP]11:36:04:201-caseLogs.py:54 >> Method Name:testCase04_del_recycleNotes, Class Name:DelNotesHandle
+[STEP]11:36:04:204-caseLogs.py:55 >> Test Description:删除便签 删除回收站便签
+[STEP]11:36:04:208-test_handle.py:84 >> 【step】前置构建回收站便签数据
+[STEP]11:36:04:773-test_handle.py:87 >> 【step】删除便签
+[INFO]11:36:04:777-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:36:04:781-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:36:04:784-httpReMethod.py:18 >> send body: {'noteId': '1730518564208_noteid'}
+[INFO]11:36:04:975-httpReMethod.py:27 >> recv code: 200
+[INFO]11:36:04:978-httpReMethod.py:28 >> recv body: {"responseTime":27}
+[STEP]11:36:04:982-test_handle.py:90 >> 【step】校验便签删除情况
+[INFO]11:36:04:985-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:36:04:989-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:36:05:181-httpReMethod.py:52 >> recv code: 200
+[INFO]11:36:05:184-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730518564208_noteid","createTime":1730518564742,"star":0,"remindTime":0,"remindType":0,"infoVersion":3,"infoUpdateTime":1730518565318,"groupId":null,"title":"1730518564_title","summary":"1730518564_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730518564911}]}
+[STEP]11:37:18:023-caseLogs.py:54 >> Method Name:testCase04_del_recycleNotes, Class Name:DelNotesHandle
+[STEP]11:37:18:027-caseLogs.py:55 >> Test Description:删除便签 删除回收站便签
+[STEP]11:37:18:030-test_handle.py:84 >> 【step】前置构建回收站便签数据
+[STEP]11:37:18:721-test_handle.py:87 >> 【step】删除便签
+[INFO]11:37:18:724-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:37:18:728-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:37:18:731-httpReMethod.py:18 >> send body: {'noteId': '1730518638031_noteid'}
+[INFO]11:37:18:942-httpReMethod.py:27 >> recv code: 200
+[INFO]11:37:18:946-httpReMethod.py:28 >> recv body: {"responseTime":41}
+[STEP]11:37:18:949-test_handle.py:90 >> 【step】校验便签删除情况
+[INFO]11:37:18:953-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:37:18:956-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:37:19:159-httpReMethod.py:52 >> recv code: 200
+[INFO]11:37:19:163-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730518638031_noteid","createTime":1730518638572,"star":0,"remindTime":0,"remindType":0,"infoVersion":3,"infoUpdateTime":1730518639275,"groupId":null,"title":"1730518638_title","summary":"1730518638_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730518638844}]}
+[STEP]11:43:28:390-caseLogs.py:54 >> Method Name:testCase05_del_ultra_vires, Class Name:DelNotesHandle
+[STEP]11:43:28:393-caseLogs.py:55 >> Test Description:删除便签 校验越权
+[STEP]11:43:28:397-test_handle.py:104 >> 【step】前置构建用户2便签数据
+[STEP]11:43:28:808-test_handle.py:106 >> 【step】删除便签
+[INFO]11:43:28:812-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:43:28:816-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821'}
+[INFO]11:43:28:820-httpReMethod.py:18 >> send body: {'noteId': '1730519008397_noteid'}
+[INFO]11:43:29:024-httpReMethod.py:27 >> recv code: 200
+[INFO]11:43:29:028-httpReMethod.py:28 >> recv body: {"responseTime":26}
+[STEP]11:45:29:168-caseLogs.py:54 >> Method Name:testCase05_del_ultra_vires, Class Name:DelNotesHandle
+[STEP]11:45:29:171-caseLogs.py:55 >> Test Description:删除便签 校验越权
+[STEP]11:45:29:175-test_handle.py:104 >> 【step】前置构建用户2便签数据
+[STEP]11:45:29:573-test_handle.py:106 >> 【step】删除便签
+[INFO]11:45:29:577-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:45:29:581-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:45:29:584-httpReMethod.py:18 >> send body: {'noteId': '1730519129175_noteid'}
+[INFO]11:45:29:780-httpReMethod.py:27 >> recv code: 200
+[INFO]11:45:29:783-httpReMethod.py:28 >> recv body: {"responseTime":27}
+[STEP]11:48:37:183-caseLogs.py:54 >> Method Name:testCase05_del_repeat, Class Name:DelNotesHandle
+[STEP]11:48:37:186-caseLogs.py:55 >> Test Description:删除便签 重复删除便签
+[STEP]11:48:37:190-test_handle.py:104 >> 【step】前置构建首页便签数据
+[STEP]11:48:37:585-test_handle.py:106 >> 【step】删除便签
+[INFO]11:48:37:589-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:48:37:593-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:48:37:596-httpReMethod.py:18 >> send body: {'noteId': '1730519317190_noteid'}
+[INFO]11:48:37:794-httpReMethod.py:27 >> recv code: 200
+[INFO]11:48:37:798-httpReMethod.py:28 >> recv body: {"responseTime":36}
+[STEP]11:48:37:801-test_handle.py:109 >> 【step】再次删除便签
+[INFO]11:48:37:805-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:48:37:809-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:48:37:812-httpReMethod.py:18 >> send body: {'noteId': '1730519317190_noteid'}
+[INFO]11:48:38:007-httpReMethod.py:27 >> recv code: 200
+[INFO]11:48:38:011-httpReMethod.py:28 >> recv body: {"responseTime":27}
+[STEP]11:51:11:995-caseLogs.py:54 >> Method Name:testCase01_del_homeNotes, Class Name:DelNotesHandle
+[STEP]11:51:11:998-caseLogs.py:55 >> Test Description:删除便签 删除首页便签
+[STEP]11:51:12:001-test_handle.py:33 >> 【step】前置构建首页便签数据
+[STEP]11:51:12:489-test_handle.py:35 >> 【step】删除便签
+[INFO]11:51:12:493-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:12:496-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:12:499-httpReMethod.py:18 >> send body: {'noteId': '1730519472002_noteid'}
+[INFO]11:51:12:682-httpReMethod.py:27 >> recv code: 200
+[INFO]11:51:12:686-httpReMethod.py:28 >> recv body: {"responseTime":30}
+[STEP]11:51:12:688-test_handle.py:38 >> 【step】校验便签删除情况
+[INFO]11:51:12:692-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:51:12:695-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:12:916-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:12:920-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730519472002_noteid","createTime":1730519472596,"star":0,"remindTime":0,"remindType":0,"infoVersion":2,"infoUpdateTime":1730519473094,"groupId":null,"title":"1730519472_title","summary":"1730519472_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730519472881}]}
+[STEP]11:51:14:037-caseLogs.py:54 >> Method Name:testCase02_del_calendarNotes, Class Name:DelNotesHandle
+[STEP]11:51:14:040-caseLogs.py:55 >> Test Description:删除便签 删除日历便签
+[STEP]11:51:14:043-test_handle.py:50 >> 【step】前置构建日历便签数据
+[STEP]11:51:14:433-test_handle.py:53 >> 【step】删除便签
+[INFO]11:51:14:436-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:14:439-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:14:443-httpReMethod.py:18 >> send body: {'noteId': '1730519474043_noteid'}
+[INFO]11:51:14:638-httpReMethod.py:27 >> recv code: 200
+[INFO]11:51:14:641-httpReMethod.py:28 >> recv body: {"responseTime":26}
+[STEP]11:51:14:644-test_handle.py:56 >> 【step】校验便签删除情况
+[INFO]11:51:14:647-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:51:14:650-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:14:852-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:14:855-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730519474043_noteid","createTime":1730519474635,"star":0,"remindTime":1730520000000,"remindType":0,"infoVersion":2,"infoUpdateTime":1730519475048,"groupId":null,"title":"1730519474_title","summary":"1730519474_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730519474844}]}
+[STEP]11:51:15:669-caseLogs.py:54 >> Method Name:testCase03_del_groupNotes, Class Name:DelNotesHandle
+[STEP]11:51:15:672-caseLogs.py:55 >> Test Description:删除便签 删除分组便签
+[STEP]11:51:15:675-test_handle.py:68 >> 【step】前置构建分组便签数据
+[STEP]11:51:16:274-test_handle.py:71 >> 【step】删除便签
+[INFO]11:51:16:278-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:16:281-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:16:284-httpReMethod.py:18 >> send body: {'noteId': '1730519475872_noteid'}
+[INFO]11:51:16:484-httpReMethod.py:27 >> recv code: 200
+[INFO]11:51:16:488-httpReMethod.py:28 >> recv body: {"responseTime":28}
+[STEP]11:51:16:490-test_handle.py:74 >> 【step】校验便签删除情况
+[INFO]11:51:16:494-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:51:16:497-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:16:707-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:16:710-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730519475872_noteid","createTime":1730519476486,"star":0,"remindTime":0,"remindType":0,"infoVersion":2,"infoUpdateTime":1730519476871,"groupId":"1730519475675_group_id","title":"1730519476_title","summary":"1730519476_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730519476666}]}
+[STEP]11:51:17:484-caseLogs.py:54 >> Method Name:testCase04_del_recycleNotes, Class Name:DelNotesHandle
+[STEP]11:51:17:487-caseLogs.py:55 >> Test Description:删除便签 删除回收站便签
+[STEP]11:51:17:490-test_handle.py:86 >> 【step】前置构建回收站便签数据
+[STEP]11:51:18:095-test_handle.py:89 >> 【step】删除便签
+[INFO]11:51:18:098-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:18:101-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:18:105-httpReMethod.py:18 >> send body: {'noteId': '1730519477490_noteid'}
+[INFO]11:51:18:288-httpReMethod.py:27 >> recv code: 200
+[INFO]11:51:18:292-httpReMethod.py:28 >> recv body: {"responseTime":31}
+[STEP]11:51:18:294-test_handle.py:92 >> 【step】校验便签删除情况
+[INFO]11:51:18:297-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/invalid/startindex/0/rows/50/notes
+[INFO]11:51:18:301-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:18:484-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:18:488-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730519477490_noteid","createTime":1730519478075,"star":0,"remindTime":0,"remindType":0,"infoVersion":3,"infoUpdateTime":1730519478701,"groupId":null,"title":"1730519477_title","summary":"1730519477_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730519478287}]}
+[STEP]11:51:19:306-caseLogs.py:54 >> Method Name:testCase05_del_repeat, Class Name:DelNotesHandle
+[STEP]11:51:19:309-caseLogs.py:55 >> Test Description:删除便签 重复删除便签
+[STEP]11:51:19:312-test_handle.py:104 >> 【step】前置构建首页便签数据
+[STEP]11:51:19:700-test_handle.py:106 >> 【step】删除便签
+[INFO]11:51:19:703-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:19:707-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:19:710-httpReMethod.py:18 >> send body: {'noteId': '1730519479312_noteid'}
+[INFO]11:51:20:003-httpReMethod.py:27 >> recv code: 200
+[INFO]11:51:20:007-httpReMethod.py:28 >> recv body: {"responseTime":122}
+[STEP]11:51:20:010-test_handle.py:109 >> 【step】再次删除便签
+[INFO]11:51:20:013-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:20:016-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:20:019-httpReMethod.py:18 >> send body: {'noteId': '1730519479312_noteid'}
+[INFO]11:51:20:366-httpReMethod.py:27 >> recv code: 200
+[INFO]11:51:20:370-httpReMethod.py:28 >> recv body: {"responseTime":186}
+[STEP]11:51:21:179-caseLogs.py:54 >> Method Name:testCase01_must_key_noteId_lost, Class Name:DelNotesInput
+[STEP]11:51:21:182-caseLogs.py:55 >> Test Description:删除便签 必填项noteId缺失
+[STEP]11:51:21:185-test_input.py:30 >> 【step】前置构建便签数据
+[STEP]11:51:21:573-test_input.py:32 >> 【step】删除noteId缺失的便签
+[INFO]11:51:21:576-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:21:579-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:21:583-httpReMethod.py:18 >> send body: {}
+[INFO]11:51:21:747-httpReMethod.py:27 >> recv code: 500
+[INFO]11:51:21:750-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]11:51:22:910-caseLogs.py:54 >> Method Name:testCase02_must_key_noteId_None, Class Name:DelNotesInput
+[STEP]11:51:22:913-caseLogs.py:55 >> Test Description:删除便签 必填项noteId为空
+[STEP]11:51:22:916-test_input.py:40 >> 【step】前置构建便签数据
+[STEP]11:51:23:329-test_input.py:42 >> 【step】删除noteId为空的便签
+[INFO]11:51:23:332-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:23:336-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:23:339-httpReMethod.py:18 >> send body: {'noteId': None}
+[INFO]11:51:23:524-httpReMethod.py:27 >> recv code: 500
+[INFO]11:51:23:527-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]11:51:24:601-caseLogs.py:54 >> Method Name:testCase03_must_key_noteId_None, Class Name:DelNotesInput
+[STEP]11:51:24:604-caseLogs.py:55 >> Test Description:删除便签 必填项noteId为空
+[STEP]11:51:24:607-test_input.py:49 >> 【step】前置构建便签数据
+[STEP]11:51:25:014-test_input.py:51 >> 【step】删除noteId为空的便签
+[INFO]11:51:25:017-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:25:020-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:25:024-httpReMethod.py:18 >> send body: {'noteId': None}
+[INFO]11:51:25:204-httpReMethod.py:27 >> recv code: 500
+[INFO]11:51:25:207-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]11:51:26:209-caseLogs.py:54 >> Method Name:testCase04_must_key_noteId_long, Class Name:DelNotesInput
+[STEP]11:51:26:212-caseLogs.py:55 >> Test Description:删除便签 必填项noteId值过长
+[STEP]11:51:26:215-test_input.py:58 >> 【step】前置构建便签数据
+[STEP]11:51:26:600-test_input.py:60 >> 【step】删除noteId为空的便签
+[INFO]11:51:26:603-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:26:606-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:26:610-httpReMethod.py:18 >> send body: {'noteId': '99999999999999999999999999999999999999999999999999'}
+[INFO]11:51:26:800-httpReMethod.py:27 >> recv code: 500
+[INFO]11:51:26:803-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]11:51:27:751-caseLogs.py:54 >> Method Name:testCase05_must_key_noteId_special, Class Name:DelNotesInput
+[STEP]11:51:27:754-caseLogs.py:55 >> Test Description:删除便签 必填项noteId为特殊字符
+[STEP]11:51:27:757-test_input.py:67 >> 【step】前置构建便签数据
+[STEP]11:51:28:174-test_input.py:69 >> 【step】删除noteId为空的便签
+[INFO]11:51:28:177-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:28:180-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:28:184-httpReMethod.py:18 >> send body: {'noteId': '？@#￥%……'}
+[INFO]11:51:28:401-httpReMethod.py:27 >> recv code: 500
+[INFO]11:51:28:404-httpReMethod.py:28 >> recv body: {"errorCode":-7,"errorMsg":"org.springframework.jdbc.UncategorizedSQLException: \n### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\\xEF\\xBC\\x9F@#\\xEF...' for column 'noteId' at row 1\n### The error may involve defaultParameterMap\n### The error occurred while setting parameters\n### SQL: insert into noteinfo(userId, noteId, valid, infoVersion, createTime, infoUpdateTime)             values(?, ?, ?, 1, ?, ?)             on duplicate key update             valid = ?, infoVersion = infoVersion + 1, infoUpdateTime = ?\n### Cause: java.sql.SQLException: Incorrect string value: '\\xEF\\xBC\\x9F@#\\xEF...' for column 'noteId' at row 1\n; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect string value: '\\xEF\\xBC\\x9F@#\\xEF...' for column 'noteId' at row 1; nested exception is java.sql.SQLException: Incorrect string value: '\\xEF\\xBC\\x9F@#\\xEF...' for column 'noteId' at row 1\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)\n\tat org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)\n\tat org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)\n\tat com.sun.proxy.$Proxy96.insert(Unknown Source)\n\tat org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)\n\tat org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)\n\tat org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)\n\tat com.sun.proxy.$Proxy100.setValid(Unknown Source)\n\tat cn.wps.note.api.NoteApi.deleteNote(NoteApi.java:303)\n\tat cn.wps.note.service.old.NoteControllerService.deleteNote(NoteControllerService.java:195)\n\tat cn.wps.note.controller.old.NoteController.deleteNote(NoteController.java:393)\n\tat cn.wps.note.controller.old.NoteController$$FastClassBySpringCGLIB$$19b69b22.invoke(<generated>)\n\tat org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)\n\tat org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)\n\tat org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)\n\tat cn.wps.note.interceptor.LogAop.around(LogAop.java:30)\n\tat sun.reflect.GeneratedMethodAccessor79.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)\n\tat org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)\n\tat org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)\n\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)\n\tat org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)\n\tat cn.wps.note.controller.old.NoteController$$EnhancerBySpringCGLIB$$eed88543.deleteNote(<generated>)\n\tat sun.reflect.GeneratedMethodAccessor213.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:660)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:741)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: java.sql.SQLException: Incorrect string value: '\\xEF\\xBC\\x9F@#\\xEF...' for column 'noteId' at row 1\n\tat com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)\n\tat com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3970)\n\tat com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3906)\n\tat com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)\n\tat com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2677)\n\tat com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)\n\tat com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)\n\tat com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)\n\tat com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3409)\n\tat com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)\n\tat com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3407)\n\tat com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)\n\tat com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:498)\n\tat org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)\n\tat org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)\n\tat org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)\n\tat org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)\n\tat org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)\n\tat sun.reflect.GeneratedMethodAccessor104.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)\n\tat com.sun.proxy.$Proxy136.update(Unknown Source)\n\tat org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)\n\tat org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)\n\tat sun.reflect.GeneratedMethodAccessor135.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)\n\t... 81 more\n"}
+[STEP]11:51:29:388-caseLogs.py:54 >> Method Name:testCase06_must_key_noteId_upper_lower, Class Name:DelNotesInput
+[STEP]11:51:29:391-caseLogs.py:55 >> Test Description:删除便签 必填项noteId为大小写
+[STEP]11:51:29:394-test_input.py:76 >> 【step】前置构建便签数据
+[STEP]11:51:29:397-test_input.py:77 >> 【step】删除noteId为空的便签
+[INFO]11:51:29:400-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:29:403-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:29:406-httpReMethod.py:18 >> send body: {'noteId': 'AAAAAaaaa'}
+[INFO]11:51:29:597-httpReMethod.py:27 >> recv code: 200
+[INFO]11:51:29:600-httpReMethod.py:28 >> recv body: {"responseTime":31}
+[STEP]11:51:29:977-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:DelNotesMajor
+[STEP]11:51:29:980-caseLogs.py:55 >> Test Description:删除便签 主流程
+[STEP]11:51:29:983-test_major.py:31 >> 【step】前置构建便签数据
+[STEP]11:51:30:355-test_major.py:33 >> 【step】删除便签
+[INFO]11:51:30:358-httpReMethod.py:16 >> send url: http://note-api.wps.cn/v3/notesvr/delete
+[INFO]11:51:30:362-httpReMethod.py:17 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:30:365-httpReMethod.py:18 >> send body: {'noteId': '1730519489983_noteid'}
+[INFO]11:51:30:570-httpReMethod.py:27 >> recv code: 200
+[INFO]11:51:30:573-httpReMethod.py:28 >> recv body: {"responseTime":26}
+[STEP]11:51:31:332-caseLogs.py:54 >> Method Name:testCase01_check_calendarNotes, Class Name:GetHomeNotesHandle
+[STEP]11:51:31:335-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]11:51:31:338-test_handle.py:29 >> 【step】前置构建日历便签数据
+[STEP]11:51:31:720-test_handle.py:34 >> 【step】获取首页便签列表
+[INFO]11:51:31:723-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]11:51:31:727-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:31:903-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:31:907-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]11:51:32:339-caseLogs.py:54 >> Method Name:testCase02_check_groupNotes, Class Name:GetHomeNotesHandle
+[STEP]11:51:32:342-caseLogs.py:55 >> Test Description:查询分组便签是否在首页
+[STEP]11:51:32:345-test_handle.py:45 >> 【step】前置构建分组便签数据
+[STEP]11:51:32:949-test_handle.py:50 >> 【step】获取首页便签列表
+[INFO]11:51:32:952-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]11:51:32:955-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:33:156-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:33:159-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]11:51:33:541-caseLogs.py:54 >> Method Name:testCase03_check_recycleNotes, Class Name:GetHomeNotesHandle
+[STEP]11:51:33:544-caseLogs.py:55 >> Test Description:查询回收站便签是否在首页
+[STEP]11:51:33:547-test_handle.py:61 >> 【step】前置构建回收站便签数据
+[STEP]11:51:34:102-test_handle.py:66 >> 【step】获取首页便签列表
+[INFO]11:51:34:105-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]11:51:34:108-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:34:302-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:34:305-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]11:51:35:046-caseLogs.py:54 >> Method Name:testCase04_check_delNotes, Class Name:GetHomeNotesHandle
+[STEP]11:51:35:049-caseLogs.py:55 >> Test Description:查询彻底删除便签是否在首页
+[STEP]11:51:35:052-test_handle.py:77 >> 【step】前置彻底删除便签数据
+[STEP]11:51:36:150-test_handle.py:83 >> 【step】获取首页便签列表
+[INFO]11:51:36:153-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]11:51:36:156-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:36:360-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:36:364-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]11:51:36:729-caseLogs.py:54 >> Method Name:testCase05_limit_rows, Class Name:GetHomeNotesHandle
+[STEP]11:51:36:732-caseLogs.py:55 >> Test Description:获取首页便签，限制获取条数
+[STEP]11:51:36:735-test_handle.py:94 >> 【step】前置便签数据2条
+[STEP]11:51:37:495-test_handle.py:99 >> 【step】获取首页便签列表
+[INFO]11:51:37:498-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/1/notes
+[INFO]11:51:37:501-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:37:686-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:37:690-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730519497121_noteid","createTime":1730519497700,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730519497700,"groupId":null,"title":"1730519497_title","summary":"1730519497_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730519497883}]}
+[STEP]11:51:38:890-caseLogs.py:54 >> Method Name:testCase06_limit_startindex, Class Name:GetHomeNotesHandle
+[STEP]11:51:38:893-caseLogs.py:55 >> Test Description:获取首页便签，限制获取索引
+[STEP]11:51:38:896-test_handle.py:106 >> 【step】前置构建便签数据2条
+[STEP]11:51:39:710-test_handle.py:111 >> 【step】获取首页便签列表
+[INFO]11:51:39:713-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/1/rows/50/notes
+[INFO]11:51:39:716-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:39:910-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:39:914-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730519498896_noteid","createTime":1730519499481,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730519499481,"groupId":null,"title":"1730519499_title","summary":"1730519499_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730519499708}]}
+[STEP]11:51:41:076-caseLogs.py:54 >> Method Name:testCase07_check_notes_num, Class Name:GetHomeNotesHandle
+[STEP]11:51:41:079-caseLogs.py:55 >> Test Description:获取首页便签，校验0条便签
+[STEP]11:51:41:082-test_handle.py:118 >> 【step】不构建便签数据
+[STEP]11:51:41:085-test_handle.py:121 >> 【step】获取首页便签列表
+[INFO]11:51:41:088-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]11:51:41:091-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:41:274-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:41:277-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]11:51:41:659-caseLogs.py:54 >> Method Name:testCase08_check_notes_num, Class Name:GetHomeNotesHandle
+[STEP]11:51:41:662-caseLogs.py:55 >> Test Description:获取首页便签，校验1条便签
+[STEP]11:51:41:665-test_handle.py:128 >> 【step】前置构建便签数据1条
+[STEP]11:51:42:078-test_handle.py:132 >> 【step】获取首页便签列表
+[INFO]11:51:42:081-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]11:51:42:084-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:42:288-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:42:291-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730519501665_noteid","createTime":1730519502275,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730519502275,"groupId":null,"title":"1730519501_title","summary":"1730519501_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730519502471}]}
+[STEP]11:51:43:218-caseLogs.py:54 >> Method Name:testCase09_check_notes_num, Class Name:GetHomeNotesHandle
+[STEP]11:51:43:221-caseLogs.py:55 >> Test Description:获取首页便签，校验2条便签
+[STEP]11:51:43:224-test_handle.py:139 >> 【step】前置构建便签数据2条
+[STEP]11:51:43:968-test_handle.py:143 >> 【step】获取首页便签列表
+[INFO]11:51:43:971-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]11:51:43:975-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:44:214-httpReMethod.py:52 >> recv code: 200
+[INFO]11:51:44:218-httpReMethod.py:53 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730519503595_noteid","createTime":1730519504195,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730519504195,"groupId":null,"title":"1730519503_title","summary":"1730519503_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730519504379},{"noteId":"1730519503224_noteid","createTime":1730519503797,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730519503797,"groupId":null,"title":"1730519503_title","summary":"1730519503_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730519503989}]}
+[STEP]11:51:45:413-caseLogs.py:54 >> Method Name:testCase10_check_ultra_vires, Class Name:GetHomeNotesHandle
+[STEP]11:51:45:416-caseLogs.py:55 >> Test Description:获取其他用户首页便签，校验越权
+[STEP]11:51:45:418-test_handle.py:150 >> 【step】前置构建便签数据1条
+[STEP]11:51:45:779-test_handle.py:154 >> 【step】获取首页便签列表
+[INFO]11:51:45:782-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]11:51:45:786-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SdJIgPeHbKDhJVkgz7SPSuae7ODk00a4833ed0036f58bfd', 'X-user-key': '922061821'}
+[INFO]11:51:45:980-httpReMethod.py:52 >> recv code: 412
+[INFO]11:51:45:983-httpReMethod.py:53 >> recv body: {"errorCode":-1011,"errorMsg":"user change!"}
+[STEP]11:51:46:900-caseLogs.py:54 >> Method Name:testCase01_must_key_userId_None, Class Name:GetHomeNotesInput
+[STEP]11:51:46:903-caseLogs.py:55 >> Test Description:查询首页便签, 必填项user_id为空
+[STEP]11:51:46:906-test_input.py:27 >> 【step】前置构建首页便签数据
+[STEP]11:51:47:295-test_input.py:32 >> 【step】获取首页便签
+[INFO]11:51:47:298-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/None/home/startindex/0/rows/50/notes
+[INFO]11:51:47:301-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': 'None'}
+[INFO]11:51:47:483-httpReMethod.py:52 >> recv code: 500
+[INFO]11:51:47:486-httpReMethod.py:53 >> recv body: {"errorCode":-7,"errorMsg":"参数类型错误！"}
+[STEP]11:51:47:663-caseLogs.py:54 >> Method Name:testCase02_must_key_userId_str, Class Name:GetHomeNotesInput
+[STEP]11:51:47:666-caseLogs.py:55 >> Test Description:查询首页便签, 必填项user_id为字符串
+[STEP]11:51:47:669-test_input.py:38 >> 【step】前置构建首页便签数据
+[STEP]11:51:48:057-test_input.py:42 >> 【step】获取首页便签
+[INFO]11:51:48:060-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/str(459349776)/home/startindex/0/rows/50/notes
+[INFO]11:51:48:064-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:48:237-httpReMethod.py:52 >> recv code: 500
+[INFO]11:51:48:240-httpReMethod.py:53 >> recv body: {"errorCode":-7,"errorMsg":"参数类型错误！"}
+[STEP]11:51:48:425-caseLogs.py:54 >> Method Name:testCase03_must_key_userId_long, Class Name:GetHomeNotesInput
+[STEP]11:51:48:428-caseLogs.py:55 >> Test Description:查询首页便签, 必填项user_id长度过长
+[STEP]11:51:48:431-test_input.py:48 >> 【step】前置构建首页便签数据
+[STEP]11:51:48:824-test_input.py:53 >> 【step】获取首页便签
+[INFO]11:51:48:828-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/999999999999999999/home/startindex/0/rows/50/notes
+[INFO]11:51:48:831-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '999999999999999999'}
+[INFO]11:51:49:017-httpReMethod.py:52 >> recv code: 412
+[INFO]11:51:49:020-httpReMethod.py:53 >> recv body: {"errorCode":-1011,"errorMsg":"user change!"}
+[STEP]11:51:49:212-caseLogs.py:54 >> Method Name:testCase04_must_key_startindex_None, Class Name:GetHomeNotesInput
+[STEP]11:51:49:215-caseLogs.py:55 >> Test Description:查询首页便签, 必填项startindex为空
+[STEP]11:51:49:218-test_input.py:59 >> 【step】前置构建首页便签数据
+[STEP]11:51:49:582-test_input.py:64 >> 【step】获取首页便签
+[INFO]11:51:49:585-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/None/rows/50/notes
+[INFO]11:51:49:589-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:49:747-httpReMethod.py:52 >> recv code: 500
+[INFO]11:51:49:750-httpReMethod.py:53 >> recv body: {"errorCode":-7,"errorMsg":"参数类型错误！"}
+[STEP]11:51:49:939-caseLogs.py:54 >> Method Name:testCase05_must_key_startindex_str, Class Name:GetHomeNotesInput
+[STEP]11:51:49:941-caseLogs.py:55 >> Test Description:查询首页便签, 必填项startindex为字符串
+[STEP]11:51:49:944-test_input.py:70 >> 【step】前置构建首页便签数据
+[STEP]11:51:50:307-test_input.py:75 >> 【step】获取首页便签
+[INFO]11:51:50:310-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/str(0)/rows/50/notes
+[INFO]11:51:50:314-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:50:476-httpReMethod.py:52 >> recv code: 500
+[INFO]11:51:50:479-httpReMethod.py:53 >> recv body: {"errorCode":-7,"errorMsg":"参数类型错误！"}
+[STEP]11:51:50:677-caseLogs.py:54 >> Method Name:testCase06_must_key_startindex_long, Class Name:GetHomeNotesInput
+[STEP]11:51:50:680-caseLogs.py:55 >> Test Description:查询首页便签, 必填项startindex长度过长
+[STEP]11:51:50:683-test_input.py:81 >> 【step】前置构建首页便签数据
+[STEP]11:51:51:079-test_input.py:86 >> 【step】获取首页便签
+[INFO]11:51:51:082-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/99999999999999/rows/50/notes
+[INFO]11:51:51:085-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:51:247-httpReMethod.py:52 >> recv code: 500
+[INFO]11:51:51:250-httpReMethod.py:53 >> recv body: {"errorCode":-7,"errorMsg":"参数类型错误！"}
+[STEP]11:51:51:437-caseLogs.py:54 >> Method Name:testCase07_must_key_rows_None, Class Name:GetHomeNotesInput
+[STEP]11:51:51:440-caseLogs.py:55 >> Test Description:查询首页便签, 必填项rows为空
+[STEP]11:51:51:443-test_input.py:92 >> 【step】前置构建首页便签数据
+[STEP]11:51:51:838-test_input.py:97 >> 【step】获取首页便签
+[INFO]11:51:51:841-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/None/notes
+[INFO]11:51:51:844-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:52:002-httpReMethod.py:52 >> recv code: 500
+[INFO]11:51:52:005-httpReMethod.py:53 >> recv body: {"errorCode":-7,"errorMsg":"参数类型错误！"}
+[STEP]11:51:52:188-caseLogs.py:54 >> Method Name:testCase08_must_key_rows_str, Class Name:GetHomeNotesInput
+[STEP]11:51:52:191-caseLogs.py:55 >> Test Description:查询首页便签, 必填项rows为字符串
+[STEP]11:51:52:194-test_input.py:103 >> 【step】前置构建首页便签数据
+[STEP]11:51:52:588-test_input.py:108 >> 【step】获取首页便签
+[INFO]11:51:52:591-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/str(0)/notes
+[INFO]11:51:52:594-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:52:775-httpReMethod.py:52 >> recv code: 500
+[INFO]11:51:52:778-httpReMethod.py:53 >> recv body: {"errorCode":-7,"errorMsg":"参数类型错误！"}
+[STEP]11:51:52:953-caseLogs.py:54 >> Method Name:testCase09_must_key_rows_long, Class Name:GetHomeNotesInput
+[STEP]11:51:52:956-caseLogs.py:55 >> Test Description:查询首页便签, 必填项rows长度过长
+[STEP]11:51:52:959-test_input.py:114 >> 【step】前置构建首页便签数据
+[STEP]11:51:54:342-test_input.py:119 >> 【step】获取首页便签
+[INFO]11:51:54:345-httpReMethod.py:42 >> send url: http://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/999999999999999999/notes
+[INFO]11:51:54:348-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
+[INFO]11:51:54:509-httpReMethod.py:52 >> recv code: 500
+[INFO]11:51:54:512-httpReMethod.py:53 >> recv body: {"errorCode":-7,"errorMsg":"参数类型错误！"}
+[STEP]11:51:56:988-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:GetHomeNotesMajor
+[STEP]11:51:56:991-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]11:51:56:994-test_major.py:21 >> 【step】前置构建首页便签数据
+[STEP]11:51:57:347-test_major.py:26 >> 【step】获取首页便签
+[INFO]11:51:57:350-httpReMethod.py:42 >> send url: https://note-api.wps.cn/v3/notesvr/user/459349776/home/startindex/0/rows/50/notes
+[INFO]11:51:57:353-httpReMethod.py:43 >> send headers: {'Cookie': 'wps_sid=V02SS3bAi_Tyd2Jka6BPbfRLnDcM4bw00aa04f6d001b611f10', 'X-user-key': '459349776'}
