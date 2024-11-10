@@ -1,0 +1,122 @@
+[STEP]13:58:44:191-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:TestGetHomepageNotes
+[STEP]13:58:44:194-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]13:58:44:198-test_homepage_notelist.py:21 >> 【step】前置构建分组数据
+[STEP]13:58:46:491-test_homepage_notelist.py:26 >> 【step】获取首页便签
+[INFO]13:58:46:495-httpReMethod.py:35 >> send url: [url]
+[INFO]13:58:46:499-httpReMethod.py:36 >> send headers: None
+[INFO]13:58:47:769-httpReMethod.py:53 >> recv code: 200
+[INFO]13:58:47:773-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730267924199_noteid","createTime":1730267925355,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730267925355,"groupId":null,"title":"1730267925_title","summary":"1730267925_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730267926589}]}
+[STEP]14:06:53:541-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:TestGetHomepageNotes
+[STEP]14:06:53:541-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]14:06:53:557-test_homepage_notelist.py:21 >> 【step】前置构建分组数据
+[STEP]14:06:56:753-test_homepage_notelist.py:26 >> 【step】获取首页便签
+[INFO]14:06:56:761-httpReMethod.py:35 >> send url: [url]
+[INFO]14:06:56:761-httpReMethod.py:36 >> send headers: None
+[INFO]14:06:58:183-httpReMethod.py:53 >> recv code: 200
+[INFO]14:06:58:183-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730268413557_noteid","createTime":1730268415133,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730268415133,"groupId":null,"title":"1730268415_title","summary":"1730268415_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730268416883}]}
+[STEP]14:08:41:398-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:TestGetHomepageNotes
+[STEP]14:08:41:398-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]14:08:41:398-test_homepage_notelist.py:21 >> 【step】前置构建首页便签数据
+[STEP]14:08:43:743-test_homepage_notelist.py:26 >> 【step】获取首页便签
+[INFO]14:08:43:758-httpReMethod.py:35 >> send url: [url]
+[INFO]14:08:43:758-httpReMethod.py:36 >> send headers: None
+[INFO]14:08:44:790-httpReMethod.py:53 >> recv code: 200
+[INFO]14:08:44:790-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730268521398_noteid","createTime":1730268522902,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730268522902,"groupId":null,"title":"1730268522_title","summary":"1730268522_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730268523914}]}
+[STEP]22:51:27:867-caseLogs.py:54 >> Method Name:testCase02_check_calendarnotes, Class Name:TestGetHomepageNotes
+[STEP]22:51:27:871-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]22:51:27:874-test_homepage_notelist.py:52 >> 【step】前置构建日历便签数据
+[STEP]22:51:29:553-test_homepage_notelist.py:57 >> 【step】获取首页便签列表
+[INFO]22:51:29:557-httpReMethod.py:35 >> send url: [url]
+[INFO]22:51:29:560-httpReMethod.py:36 >> send headers: None
+[INFO]22:51:30:297-httpReMethod.py:53 >> recv code: 200
+[INFO]22:51:30:301-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]22:52:26:643-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:TestGetHomepageNotes
+[STEP]22:52:26:646-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]22:52:26:650-test_homepage_notelist.py:21 >> 【step】前置构建首页便签数据
+[STEP]22:52:28:137-caseLogs.py:54 >> Method Name:testCase02_check_calendarnotes, Class Name:TestGetHomepageNotes
+[STEP]22:52:28:140-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]22:52:28:144-test_homepage_notelist.py:52 >> 【step】前置构建日历便签数据
+[STEP]22:52:29:604-test_homepage_notelist.py:57 >> 【step】获取首页便签列表
+[INFO]22:52:29:608-httpReMethod.py:35 >> send url: [url]
+[INFO]22:52:29:612-httpReMethod.py:36 >> send headers: None
+[INFO]22:52:30:296-httpReMethod.py:53 >> recv code: 200
+[INFO]22:52:30:301-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]22:57:42:994-caseLogs.py:54 >> Method Name:testCase02_check_calendarnotes, Class Name:TestGetHomepageNotes
+[STEP]22:57:42:997-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]22:57:43:000-test_homepage_notelist.py:52 >> 【step】前置构建日历便签数据
+[STEP]23:00:46:973-caseLogs.py:54 >> Method Name:testCase02_check_calendarnotes, Class Name:TestGetHomepageNotes
+[STEP]23:00:46:976-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]23:00:46:980-test_homepage_notelist.py:52 >> 【step】前置构建日历便签数据
+[STEP]23:00:48:250-test_homepage_notelist.py:57 >> 【step】获取首页便签列表
+[INFO]23:00:48:254-httpReMethod.py:35 >> send url: [url]
+[INFO]23:00:48:257-httpReMethod.py:36 >> send headers: None
+[INFO]23:00:48:925-httpReMethod.py:53 >> recv code: 200
+[INFO]23:00:48:929-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730300446980_noteid","createTime":1730300447638,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730300447638,"groupId":null,"title":"1730300447_title","summary":"1730300447_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730300448382}]}
+[STEP]23:03:27:878-caseLogs.py:54 >> Method Name:testCase02_check_calendarnotes, Class Name:TestGetHomepageNotes
+[STEP]23:03:27:882-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]23:03:27:885-test_homepage_notelist.py:52 >> 【step】前置构建日历便签数据
+[STEP]23:03:29:212-test_homepage_notelist.py:57 >> 【step】获取首页便签列表
+[INFO]23:03:29:216-httpReMethod.py:35 >> send url: [url]
+[INFO]23:03:29:220-httpReMethod.py:36 >> send headers: None
+[INFO]23:03:29:897-httpReMethod.py:53 >> recv code: 200
+[INFO]23:03:29:900-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730300607886_noteid","createTime":1730300608616,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730300608616,"groupId":null,"title":"1730300608_title","summary":"1730300608_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730300609320}]}
+[STEP]23:04:24:838-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:TestGetHomepageNotes
+[STEP]23:04:24:841-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]23:04:24:844-test_homepage_notelist.py:21 >> 【step】前置构建首页便签数据
+[STEP]23:04:26:890-caseLogs.py:54 >> Method Name:testCase02_check_calendarnotes, Class Name:TestGetHomepageNotes
+[STEP]23:04:26:893-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]23:04:26:897-test_homepage_notelist.py:52 >> 【step】前置构建日历便签数据
+[STEP]23:04:28:278-test_homepage_notelist.py:57 >> 【step】获取首页便签列表
+[INFO]23:04:28:281-httpReMethod.py:35 >> send url: [url]
+[INFO]23:04:28:285-httpReMethod.py:36 >> send headers: None
+[INFO]23:04:28:958-httpReMethod.py:53 >> recv code: 200
+[INFO]23:04:28:962-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730300666898_noteid","createTime":1730300667662,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730300667662,"groupId":null,"title":"1730300667_title","summary":"1730300667_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730300668350}]}
+[STEP]23:10:50:085-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:TestGetHomepageNotes
+[STEP]23:10:50:088-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]23:10:50:092-test_homepage_notelist.py:21 >> 【step】前置构建首页便签数据
+[STEP]23:10:51:419-test_homepage_notelist.py:26 >> 【step】获取首页便签
+[INFO]23:10:51:423-httpReMethod.py:35 >> send url: [url]
+[INFO]23:10:51:427-httpReMethod.py:36 >> send headers: None
+[INFO]23:10:52:046-httpReMethod.py:53 >> recv code: 200
+[INFO]23:10:52:050-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730301050092_noteid","createTime":1730301050786,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730301050786,"groupId":null,"title":"1730301050_title","summary":"1730301050_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730301051538}]}
+[STEP]23:10:55:308-caseLogs.py:54 >> Method Name:testCase02_check_calendarnotes, Class Name:TestGetHomepageNotes
+[STEP]23:10:55:311-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]23:10:55:315-test_homepage_notelist.py:52 >> 【step】前置构建日历便签数据
+[STEP]23:10:56:690-test_homepage_notelist.py:57 >> 【step】获取首页便签列表
+[INFO]23:10:56:693-httpReMethod.py:35 >> send url: [url]
+[INFO]23:10:56:697-httpReMethod.py:36 >> send headers: None
+[INFO]23:10:57:364-httpReMethod.py:53 >> recv code: 200
+[INFO]23:10:57:368-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]23:11:48:363-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:TestGetHomepageNotes
+[STEP]23:11:48:366-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]23:11:48:370-test_homepage_notelist.py:21 >> 【step】前置构建首页便签数据
+[STEP]23:11:49:735-test_homepage_notelist.py:26 >> 【step】获取首页便签
+[INFO]23:11:49:739-httpReMethod.py:35 >> send url: [url]
+[INFO]23:11:49:742-httpReMethod.py:36 >> send headers: None
+[INFO]23:11:50:495-httpReMethod.py:53 >> recv code: 200
+[INFO]23:11:50:499-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730301108370_noteid","createTime":1730301109116,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730301109116,"groupId":null,"title":"1730301109_title","summary":"1730301109_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730301109738}]}
+[STEP]23:11:53:751-caseLogs.py:54 >> Method Name:testCase02_check_calendarnotes, Class Name:TestGetHomepageNotes
+[STEP]23:11:53:754-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]23:11:53:757-test_homepage_notelist.py:52 >> 【step】前置构建日历便签数据
+[STEP]23:11:55:009-test_homepage_notelist.py:57 >> 【step】获取首页便签列表
+[INFO]23:11:55:012-httpReMethod.py:35 >> send url: [url]
+[INFO]23:11:55:016-httpReMethod.py:36 >> send headers: None
+[INFO]23:11:55:678-httpReMethod.py:53 >> recv code: 200
+[INFO]23:11:55:681-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[]}
+[STEP]23:16:59:443-caseLogs.py:54 >> Method Name:testCase01_major, Class Name:TestGetHomepageNotes
+[STEP]23:16:59:446-caseLogs.py:55 >> Test Description:获取首页便签列表 主流程
+[STEP]23:16:59:450-test_homepage_notelist.py:21 >> 【step】前置构建首页便签数据
+[STEP]23:17:00:794-test_homepage_notelist.py:26 >> 【step】获取首页便签
+[INFO]23:17:00:798-httpReMethod.py:35 >> send url: [url]
+[INFO]23:17:00:801-httpReMethod.py:36 >> send headers: None
+[INFO]23:17:01:394-httpReMethod.py:53 >> recv code: 200
+[INFO]23:17:01:397-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[{"noteId":"1730301419450_noteid","createTime":1730301420133,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1730301420133,"groupId":null,"title":"1730301420_title","summary":"1730301420_summary","thumbnail":null,"contentVersion":1,"contentUpdateTime":1730301420819}]}
+[STEP]23:17:05:579-caseLogs.py:54 >> Method Name:testCase02_check_calendarnotes, Class Name:TestGetHomepageNotes
+[STEP]23:17:05:582-caseLogs.py:55 >> Test Description:查询日历便签是否在首页
+[STEP]23:17:05:586-test_homepage_notelist.py:52 >> 【step】前置构建日历便签数据
+[STEP]23:17:06:869-test_homepage_notelist.py:57 >> 【step】获取首页便签列表
+[INFO]23:17:06:872-httpReMethod.py:35 >> send url: [url]
+[INFO]23:17:06:876-httpReMethod.py:36 >> send headers: None
+[INFO]23:17:07:478-httpReMethod.py:53 >> recv code: 200
+[INFO]23:17:07:481-httpReMethod.py:54 >> recv body: {"responseTime":0,"webNotes":[]}
+[ERROR]23:17:07:485-test_homepage_notelist.py:65 >> 接口出问题了
